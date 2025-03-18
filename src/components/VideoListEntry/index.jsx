@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
+import {useState} from "react";
 
 const EntryWrapper = styled.div`
   width: 100%;
@@ -16,7 +17,12 @@ const EntryWrapper = styled.div`
   }
 `;
 
-export default function VideoListEntry({ videoId = "", item},key) {
+export default function VideoListEntry({ videoId = "", item, key}) {
+  let isShow = true;
+
+  if(item.snippet.description.length >= 30 || item.snippet.description === "") {
+    isShow = false;
+  }
 
   return (
     <EntryWrapper data-test={`video-item-${videoId}`} key={key}>
@@ -28,8 +34,9 @@ export default function VideoListEntry({ videoId = "", item},key) {
         />
       </div>
       <div className="contents">
-        <div data-test="video-title">{item.snippet.title}</div>
-        <div data-test="video-description">{item.snippet.description}</div>
+        <div data-test="video-title">영상 제목: {item.snippet.title}</div>
+        {isShow && <div data-test="video-description">영상 설명: {item.snippet.description}</div>}
+        <div>채널이름: {item.snippet.channelTitle}</div>
       </div>
     </EntryWrapper>
   );
