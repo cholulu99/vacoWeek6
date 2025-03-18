@@ -16,7 +16,8 @@ const EntryWrapper = styled.div`
   }
 `;
 
-export default function VideoListEntry({ videoId = "" }) {
+export default function VideoListEntry({ videoId = "", item }) {
+  debugger;
   return (
     <EntryWrapper data-test={`video-item-${videoId}`}>
       <div>
