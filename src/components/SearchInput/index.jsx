@@ -6,7 +6,7 @@ export default function SearchInput({ onChange, placeholder, value }) {
     <Input
       type="text"
       placeholder={placeholder}
-      value={value}
+      value={value} // 바닐라 코딩으로 고정
       onChange={(ev) => onChange(ev.target.value)}
       data-test="input-search"
     />
