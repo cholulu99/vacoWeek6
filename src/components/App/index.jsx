@@ -3,6 +3,7 @@ import styled from "styled-components";
 import VideoList from "../VideoList";
 import AppHeader from "../AppHeader";
 import Container from "../shared/Container";
+import Modal from "../Modal";
 
 const Main = styled.main`
   margin-top: 110px;
@@ -19,9 +20,7 @@ export default function App() {
             <Route
               path="/:videoId"
               element={
-                <div data-test="video-modal">
-                  🖥 Use a modal to display video details!
-                </div>
+                <Modal />
               }
             />
           </Routes>

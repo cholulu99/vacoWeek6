@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   grid-template-columns: repeat(5, minmax(150px, 1fr));
   grid-template-rows: 200px 200px 200px;
   column-gap: 20px;
-  row-gap: 200px;
+  row-gap: 100px;
 `;
 
 
@@ -32,8 +32,8 @@ export default function VideoList() {
     <Wrapper data-test="video-list">
       {videoData.map((item) => {
         return (
-          <Link to="/a">
-            <VideoListEntry videoId={item.id.videoId} item={item} key={item.id.videoId}/>
+          <Link to={"/a"} key={item.id.videoId} state={{item}}>
+            <VideoListEntry videoId={item.id.videoId} item={item}/>
           </Link>
         )
       })}

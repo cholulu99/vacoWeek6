@@ -1,182 +1,1712 @@
 {
-    "kind": "youtube#searchListResponse",
-    "etag": "x_yqugOFG8CJmGsw0KvMVbQFS-M",
-    "nextPageToken": "CAUQAA",
-    "regionCode": "KR",
-    "pageInfo": {
-      "totalResults": 1000000,
-      "resultsPerPage": 5
-    },
-    "items": [
-      {
-        "kind": "youtube#searchResult",
-        "etag": "syAkY_t3FRVVgFYl5_EhgbPkoRA",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "wHTrRfGPX3A"
-        },
-        "snippet": {
-          "publishedAt": "2025-03-14T02:34:55Z",
-          "channelId": "UCAUVouuqMav526FXMkzbFVQ",
-          "title": "PRIVATE CHEF ON A YACHT #sailing #bahamas #sail #chef",
-          "description": "",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/wHTrRfGPX3A/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/wHTrRfGPX3A/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/wHTrRfGPX3A/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "lilyofthegalley",
-          "liveBroadcastContent": "none",
-          "publishTime": "2025-03-14T02:34:55Z"
-        }
+  "kind": "youtube#searchListResponse",
+  "etag": "t-j-KFx9I3g0b__Ruo8bit_9tJg",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-1ByuYavo6Bai2c8_v4-2aUcaN0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IaQlVmqsWZc"
       },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "0HTCN3GwVF7MOOAmwySe3a3L1-k",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "iFkbVWO9hww"
-        },
-        "snippet": {
-          "publishedAt": "2025-03-11T13:43:01Z",
-          "channelId": "UC68TLK0mAEzUyHx5x5k-S1Q",
-          "title": "Do Fitness Influencers Actually Know Fitness (Ep. 3 - Mike Israetel)",
-          "description": "Testing Dr. Mike Israetel's fitness knowledge...",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/iFkbVWO9hww/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/iFkbVWO9hww/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/iFkbVWO9hww/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
+      "snippet": {
+        "publishedAt": "2025-03-20T08:07:54Z",
+        "channelId": "UCTTmtS2ljy1vyl_s-d_LEHQ",
+        "title": "[권순표의 뉴스하이킥🔴] 헌재, 한덕수 탄핵 선고 24일 확정...尹 탄핵에 미칠 영향은? - 거없&amp;오창석, 헬마우스, 장윤선&amp;장성철, 오윤혜, 하은진, 박상수",
+        "description": "25/3/20 목 방송내용 본방송 전에 유튜브로만 즐기는 뉴스앞차기⚡ - 영화 유튜버 거의없다, 시사 평론가 오창석 1-2부 [뉴스 신세계] 1) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IaQlVmqsWZc/default_live.jpg",
+            "width": 120,
+            "height": 90
           },
-          "channelTitle": "Jeff Nippard",
-          "liveBroadcastContent": "none",
-          "publishTime": "2025-03-11T13:43:01Z"
-        }
-      },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "s6xJiY1ko_UXmHAJdPYnuZFe2gQ",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "Pq8rbkMFDdE"
-        },
-        "snippet": {
-          "publishedAt": "2025-03-12T16:00:23Z",
-          "channelId": "UCOgGAfSUy5LvEyVS_LF5kdw",
-          "title": "Two Brits can&#39;t believe Midwest Hospitality!",
-          "description": "Check out our latest JOLLY merch at https://jolly.store Click here to buy Josh's bestselling autobiography!",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Pq8rbkMFDdE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Pq8rbkMFDdE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Pq8rbkMFDdE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IaQlVmqsWZc/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
           },
-          "channelTitle": "JOLLY",
-          "liveBroadcastContent": "none",
-          "publishTime": "2025-03-12T16:00:23Z"
-        }
-      },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "fjrrsN3RLf_ZnibaIJ_Nq8b8vuQ",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "G0Q5UPUlAZ4"
+          "high": {
+            "url": "https://i.ytimg.com/vi/IaQlVmqsWZc/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
         },
-        "snippet": {
-          "publishedAt": "2025-03-11T21:00:23Z",
-          "channelId": "UCORQMZ35iGUi2t0g9oQ1djQ",
-          "title": "#pov She records a message for her crush to get it out of her system…",
-          "description": "",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/G0Q5UPUlAZ4/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/G0Q5UPUlAZ4/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/G0Q5UPUlAZ4/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "Mr.SpicyGremlin",
-          "liveBroadcastContent": "none",
-          "publishTime": "2025-03-11T21:00:23Z"
-        }
-      },
-      {
-        "kind": "youtube#searchResult",
-        "etag": "yGMZX08hmR9VTHOCaHf9ZeyXzkQ",
-        "id": {
-          "kind": "youtube#video",
-          "videoId": "XJdwsryDV-o"
-        },
-        "snippet": {
-          "publishedAt": "2025-03-12T20:31:13Z",
-          "channelId": "UCMCjKjb89bA2O2LnIxFZmGw",
-          "title": "This DEEP DISH PIZZA is so cheesy it&#39;s probably a CRIME!",
-          "description": "This DEEP DISH PIZZA is so cheesy it's probably a CRIME! ✨Recipe: Ingredients: • 1 cup Greek yogurt • 1 ½ cups self-rising flour ...",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/XJdwsryDV-o/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/XJdwsryDV-o/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/XJdwsryDV-o/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "Little Remy Food 🐭🍝",
-          "liveBroadcastContent": "none",
-          "publishTime": "2025-03-12T20:31:13Z"
-        }
+        "channelTitle": "MBC 라디오 시사",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-03-20T08:07:54Z"
       }
-    ]
-  }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CQxrOpTnUYjsVepBmOfo5lWp09g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WcIormli_lM"
+      },
+      "snippet": {
+        "publishedAt": "2016-06-22T15:00:02Z",
+        "channelId": "UCJg5VFwaw4wdjiX9ygv6PGQ",
+        "title": "스프링",
+        "description": "영원히 기억될 단 하나의 판타지 로맨스! “사랑하니까 괜찮아..” 어머니의 죽음으로 인한 슬픔을 잊기 위해 에반(루 테일러 푸치)은 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WcIormli_lM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WcIormli_lM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WcIormli_lM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-06-22T15:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AwXBv9rCXz70EG6S0sIGCVoCRlM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OGHM9dTvC14"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T16:00:30Z",
+        "channelId": "UCOgGAfSUy5LvEyVS_LF5kdw",
+        "title": "Two Brits try Hot-N-Ready Pizza from Little Caesars!",
+        "description": "Check out our latest JOLLY merch at https://jolly.store Click here to buy Josh's bestselling autobiography!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OGHM9dTvC14/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OGHM9dTvC14/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OGHM9dTvC14/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JOLLY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T16:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "C0YRO01mMMStPDEcjP-G5SUk7WM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XAg1h5I25AA"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-17T12:00:48Z",
+        "channelId": "UCi7TLsCwevnFpLKveMjIUAg",
+        "title": "when you have a health conscious bf #shorts",
+        "description": "this is everything my health conscious boyfriend makes me eat in a day (AG1 daily drink, over medium eggs cooked in butter, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XAg1h5I25AA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XAg1h5I25AA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XAg1h5I25AA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Chef Kimchi",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-17T12:00:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "u0hlpBY3olYGWjtfgsbqChlmTXY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eExeGheJjMs"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T17:15:02Z",
+        "channelId": "UCWBWgCD4oAqT3hUeq40SCUw",
+        "title": "Names That Used To Be Insults",
+        "description": "Get Merch: https://bucha.shop Become a Member: https://www.youtube.com/channel/UCWBWgCD4oAqT3hUeq40SCUw/join ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eExeGheJjMs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eExeGheJjMs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eExeGheJjMs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sambucha",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T17:15:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Svh7H_LnkMwxjnZ7LrZmiwFpGH8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AF_w5aQgWSo"
+      },
+      "snippet": {
+        "publishedAt": "2013-05-14T16:28:27Z",
+        "channelId": "UCKiwVZ6jpmhagoACd9dUcgA",
+        "title": "럭키원",
+        "description": "미 해군 출신의 로건 타이볼트는 이라크에서 군 복무 중, 먼지에 반쯤 묻힌 사진에서 미소 짓는 여인을 발견한다. 그는 사진의 주인을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AF_w5aQgWSo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AF_w5aQgWSo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AF_w5aQgWSo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2013-05-14T16:28:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "i23ncNOvYR4a6Wt3WMXvztuqOhg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VATZwfvkyDI"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T12:30:26Z",
+        "channelId": "UCvz84_Q0BbvZThy75mbd-Dg",
+        "title": "Giving Birth On A Spinning Table 😮",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VATZwfvkyDI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VATZwfvkyDI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VATZwfvkyDI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Zack D. Films",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T12:30:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lbkE4ZVLZa1YYcpRpPeEmeNXvsI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ttIfXgrxV2w"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T14:32:46Z",
+        "channelId": "UCS56r87Y7q1SrAB-42brE-w",
+        "title": "There&#39;s only one step from hate to love💕 #cat #cats",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ttIfXgrxV2w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ttIfXgrxV2w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ttIfXgrxV2w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sonyakisa8 TT",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T14:32:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "36LzLg0XvXURwbXk3RSV1kqM4Aw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xPSn888JAFU"
+      },
+      "snippet": {
+        "publishedAt": "2025-01-29T11:35:58Z",
+        "channelId": "UCRpjHHu8ivVWs73uxHlWwFA",
+        "title": "Eurovision Song Contest 2025 - Grand Final - Livestream | #Eurovision2025",
+        "description": "Subscribe and to Eurovision https://www.youtube.com/user/eurovision?sub_confirmation=1 \u200b Join us for the Grand Final of ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xPSn888JAFU/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xPSn888JAFU/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xPSn888JAFU/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Eurovision Song Contest",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2025-01-29T11:35:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uO-_AjDsVQbvJIXyspOhSOz1nmk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "khvuFNb8TOs"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-18T14:25:38Z",
+        "channelId": "UCiVs2pnGW5mLIc1jS2nxhjg",
+        "title": "The clever kkubi made chaeha angry!",
+        "description": "김프로 #유백합 #KIMPRO Contact   DM : https://www.instagram.com/kimpro828/ E-mail : fm1778@naver.com.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/khvuFNb8TOs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/khvuFNb8TOs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/khvuFNb8TOs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "김프로KIMPRO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-18T14:25:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3vG3Z96ZQ721V02EGNet3aoc69Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "we-3mjgupcY"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T15:19:11Z",
+        "channelId": "UC7D6l_yvwbmaG_wWnVmKO0A",
+        "title": "Is shawarma Best American food?!🤤🤤 #americanfood #food #shawarma",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/we-3mjgupcY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/we-3mjgupcY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/we-3mjgupcY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "IamfromKorea",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T15:19:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PyyXL3JdFhRouiLhZYV0cVNoEQg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IlJNEpeZ80s"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-20T08:06:18Z",
+        "channelId": "UCF4Wxdo3inmxP-Y59wXDsFw",
+        "title": "&quot;가슴속에 덩어리가 계속 쌓이지만..&quot; 지금 헌재는? 전 헌재연구원장의 분석 - [현장PLAY] MBC뉴스 2025년 03월 20일",
+        "description": "2025년 3월 20일. MBC 뉴스외전 이헌환 아주대 법학전문대학원 교수 출연 영상 #비상계엄 #윤석열 #탄핵심판 #헌법재판소 #이헌환 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IlJNEpeZ80s/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IlJNEpeZ80s/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IlJNEpeZ80s/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MBCNEWS",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-03-20T08:06:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xnvKuqxViOf0BaCcJ9KeNLIDBMc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ah9Xulo1JfU"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-20T07:00:06Z",
+        "channelId": "UCWlV3Lz_55UaX4JsMj-z__Q",
+        "title": "[속보] 헌재, 한덕수 국무총리 탄핵심판 24일 오전 10시 선고 [무조건 간다 LIVE]",
+        "description": "헌법재판소가 국회로부터 탄핵소추된 한덕수 국무총리에 대한 선고기일을 오는 24일 열기로 했습니다. #티비조선 #무조건간다 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ah9Xulo1JfU/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ah9Xulo1JfU/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ah9Xulo1JfU/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "뉴스TVCHOSUN",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-03-20T07:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TRwLRL_ooTx32QEBMTwYoyaubiA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MBTGTmPEBeQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-20T06:54:14Z",
+        "channelId": "UCfq4V1DAuaojnr2ryvWNysw",
+        "title": "[🔴라이브를 켜라] [LIVE] 나경원 현안관련 긴급 기자회견 실시간 현장 / 채널A",
+        "description": "나경원 국민의힘 의원이 오늘(20일) 국회에서 현안관련 긴급 기자회견을 엽니다. 이 현장 채널A 뉴스 유튜브 라이브 [라이브를 켜라]로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MBTGTmPEBeQ/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MBTGTmPEBeQ/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MBTGTmPEBeQ/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "채널A News",
+        "liveBroadcastContent": "live",
+        "publishTime": "2025-03-20T06:54:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DN1RYeKFUx0o8NnzPaRITvYjj8w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cJNQG4XMrA8"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-18T21:15:58Z",
+        "channelId": "UCPk2s5c4R_d-EUUNvFFODoA",
+        "title": "College Freshman vs. Senior",
+        "description": "Want to earn college credit for a third of the average cost? ✏️ Sign up for courses *this week* over at gostudyhall.com!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cJNQG4XMrA8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cJNQG4XMrA8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cJNQG4XMrA8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gohar Khan",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-18T21:15:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XhDaCfFoZ8rM2ZIgJS668gK0hDU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZW6HyP2y4Dk"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T22:00:35Z",
+        "channelId": "UCLe_q9axMaeTbjN0hy1Z9xA",
+        "title": "The Girl from Mulan Does My Nails 💅",
+        "description": "Download my budgeting app today: https://calebhammer.com/app - don't overcomplicate this crap! All you need is an automated ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZW6HyP2y4Dk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZW6HyP2y4Dk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZW6HyP2y4Dk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Caleb Hammer",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T22:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NOp_ZW6R2K3L9sLTPAKmc8DI7_w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PR8QFBpow_g"
+      },
+      "snippet": {
+        "publishedAt": "2017-08-23T15:01:06Z",
+        "channelId": "UC5zzmE89TWqrpOlxzL2km4w",
+        "title": "윔피키드: 가족 여행의 법칙 (자막판)",
+        "description": "그렉과 그의 가족은 할머니의 90번째 생일파티에 참석하기 위해 가족 여행을 떠난다. 하지만, 근처에서 열리는 게임대회에 가족들 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PR8QFBpow_g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PR8QFBpow_g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PR8QFBpow_g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-08-23T15:01:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_dpXNPBrWc0Oa28qskkju957NMU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tAK__Y2ftuE"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T16:14:49Z",
+        "channelId": "UC90vvN0al6jiqTue87MrgbQ",
+        "title": "Saas ki saari kami poora kar dete hai kuch pati🤣😂 #niketimsy #funnyvideo #funnyshorts #relatable",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tAK__Y2ftuE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tAK__Y2ftuE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tAK__Y2ftuE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tims Island",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T16:14:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cnRshiu3X_8pDicwsXSjUfTJH1w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kIiDI14DCLs"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T21:30:06Z",
+        "channelId": "UCvixJtaXuNdMPUGdOPcY8Ag",
+        "title": "Trump OVER A CLIFF in authoritarian DISASTER interview",
+        "description": "Try Brain.fm totally free for a month at https://brain.fm/pakman -- Fox News host Laura Ingraham interviews Donald Trump and it ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kIiDI14DCLs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kIiDI14DCLs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kIiDI14DCLs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "David Pakman Show",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T21:30:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AOJRTtoLfOmfhxFHQAM-IME2PnE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4pGc3tyHO88"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T05:19:03Z",
+        "channelId": "UCiZqWVAeChfqlom5ZPR3ZJA",
+        "title": "#NCTWISH 의 #반딧불챌린지 입니다",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4pGc3tyHO88/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4pGc3tyHO88/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4pGc3tyHO88/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NCT WISH",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T05:19:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Bb4YyRwUJaQFmhlb0no_H35vEpo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "C10UiHG4H2o"
+      },
+      "snippet": {
+        "publishedAt": "2013-06-02T13:27:27Z",
+        "channelId": "UCh7T3__awZQaah0Rw2TuZ1Q",
+        "title": "왓어 걸 원츠",
+        "description": "데프니 레이놀즈는 개성있고 발랄한 10대 소녀. 고등학교를 갓 졸업한 그녀는 보헤미언처럼 자유분방한 가수 엄마 리비와 뉴욕 차이나 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C10UiHG4H2o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C10UiHG4H2o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C10UiHG4H2o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2013-06-02T13:27:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rJMHr4qs9xXc_KpaOauUMPP3W8U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cffN_M19U6A"
+      },
+      "snippet": {
+        "publishedAt": "2017-08-21T15:00:25Z",
+        "channelId": "UCHrW_WMrxxYlN3QBqGe72IA",
+        "title": "벨과 세바스찬, 계속되는 모험",
+        "description": "1945년 9월 2년 동안 소식을 듣지 못한 안젤리나가 알프스 산맥에 탑승하였던 비행기가 추락하였다는 소식을 듣게된 세바스찬은 그의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cffN_M19U6A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cffN_M19U6A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cffN_M19U6A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-08-21T15:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_QHOF1B1UtawkhGLENd1kxh0_Ow",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cPPyl1J8Fc8"
+      },
+      "snippet": {
+        "publishedAt": "2016-12-12T19:03:00Z",
+        "channelId": "UCzk0upTEd6qMxbq3gTCJSbQ",
+        "title": "J.에드가 : FBI의 시작",
+        "description": "거의 50년간 F.B.I의 수장이었던 J. 에드거 후버역으로 캐스팅 된 레오나르도 디카프리오. 후버는 진실을 쉽게 왜곡할 수 있는 두렵고, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cPPyl1J8Fc8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cPPyl1J8Fc8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cPPyl1J8Fc8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-12-12T19:03:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2WNL_4QNBhMCPLps7LlGUMr_ve4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_lKd22sNZu0"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T09:30:04Z",
+        "channelId": "UCUj_2VxIyQBWCv-zfubFK3Q",
+        "title": "HELP Herobrine To Speed Up With Friends And Pull A Cart #friendship #shorts #trending #anime",
+        "description": "minecraft #minecraftanimation #animation.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_lKd22sNZu0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_lKd22sNZu0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_lKd22sNZu0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "oreE TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T09:30:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rSRCX6h3pfhG9ziOwfiLFv-DT4o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mmZXeLgcRRY"
+      },
+      "snippet": {
+        "publishedAt": "2014-08-27T07:49:22Z",
+        "channelId": "UCmkeNE18ltegnNNWln35p0Q",
+        "title": "몬테 카를로",
+        "description": "고교 졸업반 그레이스(셀레나 고메즈)는 절친 엠마(케이티 캐시디)와 식당에서 아르바이트를 하면서 파리 여행 경비를 모은다. 그런데 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mmZXeLgcRRY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mmZXeLgcRRY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mmZXeLgcRRY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-08-27T07:49:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VGkw2xXd5FDj0ESFMzOTzbGoZoU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "j8ZcBhgQCwY"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-27T03:38:10Z",
+        "channelId": "UClkjSmTL-onPWI44KrZYWIg",
+        "title": "82강_구글 크롬설치와 기본설정",
+        "description": "82강_구글 크롬설치와 기본설정 필수적으로 이용하는 구글 크롬브라우저의 설치 방법과 기본 설정 방법을 알아봅니다. 구글 크롬 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j8ZcBhgQCwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j8ZcBhgQCwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j8ZcBhgQCwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "IB 96",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-27T03:38:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WZ6vGdHaNRG-JMSLETSrLCW0teQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JUgPCZNquDM"
+      },
+      "snippet": {
+        "publishedAt": "2016-01-06T15:00:15Z",
+        "channelId": "UC8L__RuNawnnO4ynFBg5nBA",
+        "title": "팬 (자막판)",
+        "description": "조 라이트가 연출한 영화 \"팬\"은 소설가 J.M. 배리 의 원작을 기반으로 하며, 영원하 사랑받는 캐릭터의 신나는 모험의 세계를 화려한 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JUgPCZNquDM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JUgPCZNquDM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JUgPCZNquDM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-01-06T15:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q4_Iavkv63psVBMeuovl7SKpjMg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "O-zi2sC0VG4"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-18T16:00:33Z",
+        "channelId": "UCOgGAfSUy5LvEyVS_LF5kdw",
+        "title": "Two Brits try Detroit Coney Island&#39;s!",
+        "description": "Check out our latest JOLLY merch at https://jolly.store Click here to buy Josh's bestselling autobiography!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/O-zi2sC0VG4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/O-zi2sC0VG4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/O-zi2sC0VG4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JOLLY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-18T16:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6OiiTV5cSk8I4oPVpVai_nUTDrE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QYiaifdIJIk"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-20T01:15:22Z",
+        "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+        "title": "&#39;Now is the time to break glass’: Chris Hayes reacts to Schumer interview",
+        "description": "It makes it very hard to imagine a leader 'meeting the moment' if they don't believe the moment is here,” says Chris Hayes on ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QYiaifdIJIk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QYiaifdIJIk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QYiaifdIJIk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MSNBC",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-20T01:15:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Y5yzrKu2oghfmOzq_IsHu5KKiDE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "E0Gi3vG9z2g"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T12:00:12Z",
+        "channelId": "UCwgtORdDtUKhpjE1VBv6XfA",
+        "title": "Billionairezzz #MARK #마크 #HAECHAN #해찬 #82Pressin",
+        "description": "MARK_82Pressin #TheFirstfruit #MARK_TheFirstfruit #NCT #NCT127 #NCTDREAM.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E0Gi3vG9z2g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E0Gi3vG9z2g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E0Gi3vG9z2g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NCT",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T12:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8KYyEWDACnGklxsVezsFyOiaHV8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3KozKn-DWb4"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-18T14:30:02Z",
+        "channelId": "UCvz84_Q0BbvZThy75mbd-Dg",
+        "title": "A Deadly Prank Gone Wrong 😢",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3KozKn-DWb4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3KozKn-DWb4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3KozKn-DWb4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Zack D. Films",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-18T14:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zd2vvKqnmT3sCRc7gcP6L-smTlc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Bwo13x7lVNA"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T18:43:25Z",
+        "channelId": "UCbQaw6kiduY7EVu_yRRmSCA",
+        "title": "Ladkiya paise de mujhe pasand nahi . #abrazkhan  #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Bwo13x7lVNA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Bwo13x7lVNA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Bwo13x7lVNA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Abrazkhan - ck91",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T18:43:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j2kkfGCjuhCSFg9L9dKzGYrjiXQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Rh5W2b4GRUI"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-18T17:08:36Z",
+        "channelId": "UCaU11-oAKAPPtJbXJ6WolDA",
+        "title": "JINAH VS SONG-YI!💀🤯 | Sister Leveling #shorts",
+        "description": "CAST: Daringashia - Jinah, Song-Yi, School Girl YouTube▻ @StellarTheDutchie TikTok▻ @stellar.the.dutchie ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Rh5W2b4GRUI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Rh5W2b4GRUI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Rh5W2b4GRUI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Anime Boiis",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-18T17:08:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bX2GXKBpao7CQum5p3G-ixznGgM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ePw3vf04ktA"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T22:00:34Z",
+        "channelId": "UCVj2aIJYrMrHea7KcFDkPzA",
+        "title": "I ALWAYS DID THIS",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ePw3vf04ktA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ePw3vf04ktA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ePw3vf04ktA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Nick Wilkins",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T22:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2HZwlMj3at25XfE8HqgngM0RpWQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "m4T2Sq_AD_U"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T13:01:13Z",
+        "channelId": "UCWY0kGk9qNfw7PVvace0MOA",
+        "title": "The SASSIEST Toddler You’ve EVER Seen",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m4T2Sq_AD_U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m4T2Sq_AD_U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m4T2Sq_AD_U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Churco Family",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T13:01:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a3auGSiaIosisn34teQwfaHxOPM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BxyDwPs4hPs"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T17:00:19Z",
+        "channelId": "UCHwpDpLoyJgtFXoAaaSut4Q",
+        "title": "Italians vs REST OF THE WORLD (pizza edition)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BxyDwPs4hPs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BxyDwPs4hPs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BxyDwPs4hPs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Lionfield",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T17:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Jy9RQirR34H7LJohEGNWmIaV3go",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sAeEdhzKnBI"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T18:47:49Z",
+        "channelId": "UC0X5ohqBocOxmgZdyGW4mrA",
+        "title": "I ORDERED A 10 PATTY BIG MAC #food #shorts #mcdonalds #mukbang",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sAeEdhzKnBI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sAeEdhzKnBI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sAeEdhzKnBI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "galvsfood",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T18:47:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nJMgn0FQpnaMCwU_pzLrzz4lYAE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sBGYO30MwWE"
+      },
+      "snippet": {
+        "publishedAt": "2024-12-02T00:38:32Z",
+        "channelId": "UCe8HrlhMkYlQ_61EjrrQlHw",
+        "title": "📖미래 1강 - 재레드 다이아몬드 선생님 &#39;대변동의 시대 생존 전략&#39;",
+        "description": "미래 1강 - 재레드 다이아몬드 선생님 '대변동의 시대 생존 전략' 10:13 미리보기 이어서 감상하기.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sBGYO30MwWE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sBGYO30MwWE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sBGYO30MwWE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "교양 Voyage",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-12-02T00:38:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pKT2ZvfQLW99z5FKoh_fKEC8ypI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FPB5B1zH0vI"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-19T00:33:02Z",
+        "channelId": "UCl_tB4AqPkkxuYcJQHz6dMw",
+        "title": "클래스e - 박성준의 암호화폐와 블록체인 - 제9강 블록체인 혁명이 온다",
+        "description": "블록체인 사회가 만들어지기 위해서는 인프라 구축이 필요하다! 현재 우리나라의 블록체인 산업 현황은 어떤지 살펴보고, 앞으로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FPB5B1zH0vI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FPB5B1zH0vI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FPB5B1zH0vI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBSCulture (EBS 교양)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-19T00:33:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Yi_tHol-tZedDp4bcDzFgfzAQSg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MiZ0s7h5vVs"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-18T19:33:03Z",
+        "channelId": "UCZ2SVHLQ8hq_V06nupK5auQ",
+        "title": "Riyal😭",
+        "description": "Riyal.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MiZ0s7h5vVs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MiZ0s7h5vVs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MiZ0s7h5vVs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Bhupinder Kaur",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-18T19:33:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NEm6z5D3l2vtWlhr1B7ITxUo8BM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7IPyWhT0mxw"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T13:55:18Z",
+        "channelId": "UCvfvM8fWGhfs1YJNXDJaxyQ",
+        "title": "YOASOBI「UNDEAD」アリナ・クローバーver. 踊ってみた #Shorts [1] [MONAMISA]",
+        "description": "このチャンネルのメンバーになると限定動画を見ることができます Join this channel to get access to the perks and members-only ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7IPyWhT0mxw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7IPyWhT0mxw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7IPyWhT0mxw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONAMISA",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T13:55:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1adt5RarhwsNJZ_PmcmH5X_B70w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "i963XwiE0jY"
+      },
+      "snippet": {
+        "publishedAt": "2016-12-13T15:05:36Z",
+        "channelId": "UCPl9lXDRQYN5mCpx8HVqybw",
+        "title": "캡틴 판타스틱",
+        "description": "\"매일을 용기 있고 패기 있게 만끽해! 인생은 짧다\" 우리만의 놀이터! 우리만의 도서관! 우리만의 학교! 우리만의 카페! 숲 속, 그들만의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i963XwiE0jY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i963XwiE0jY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i963XwiE0jY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-12-13T15:05:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5McCuBG6oygeDpPcmAndZg6c7W4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AI7sdD8maXQ"
+      },
+      "snippet": {
+        "publishedAt": "2014-03-01T16:55:29Z",
+        "channelId": "UCeHS0MAbTSs9c6G7Iknc3aw",
+        "title": "딜리버리 맨",
+        "description": "항상 부진한 삶을 살아온 데이비드(빈스 본 분)는 재미없는 중년의 삶을 살고 있다. 그런데 20년전 아르바이트로 기증했던 그의 정자가 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AI7sdD8maXQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AI7sdD8maXQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AI7sdD8maXQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-03-01T16:55:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FvR8dWvOqdMgSL1SAjzM9JskVHk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wk201J7JRaA"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T20:04:58Z",
+        "channelId": "UC9r9HYFxEQOBXSopFS61ZWg",
+        "title": "ALARMED White House holds DISASTER Press Conference",
+        "description": "MeidasTouch host Ben Meiselas reports on the Trump White House going into cover up mode of their disastrous and unlawful ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wk201J7JRaA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wk201J7JRaA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wk201J7JRaA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MeidasTouch",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T20:04:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OYuh4rJJTsYznFbBeOOaaC0M6aE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GXkGCkkZ_9w"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T03:59:01Z",
+        "channelId": "UC9-FOv67-03WMjbPApziPwQ",
+        "title": "헌재 재판관들이 월급 셀프 인상한 이유, 50초 안에 설명하기",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GXkGCkkZ_9w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GXkGCkkZ_9w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GXkGCkkZ_9w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "꽉TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T03:59:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cGwfeZAAY-2-BPNbSnCwB2CmD_Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "D5npwnDaJ6s"
+      },
+      "snippet": {
+        "publishedAt": "2015-06-30T15:00:18Z",
+        "channelId": "UCrGNjwcZq3IAoYTExtGdP6Q",
+        "title": "톰과 제리: 보물섬 대소동 (자막판)",
+        "description": "신나는 모험! 톰과 제리: 보물섬 대소동! 에서는 톰이 하찮은 선실의 고양이로 변신해 바다에서 가장 크고 잔인한 해적, 악명 높은 캡틴 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D5npwnDaJ6s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D5npwnDaJ6s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D5npwnDaJ6s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-06-30T15:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zd0OTyiJEONmSvYrtqq8RlNBI8I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_MPjKx2mAkA"
+      },
+      "snippet": {
+        "publishedAt": "2012-08-15T19:22:02Z",
+        "channelId": "UCLXqQ6yVr09W9dSIpheybkg",
+        "title": "부그와 엘리엇 (자막판)",
+        "description": "소니 픽처스 애니메이션 사의 첫 장편 애니메이션. 본격 액션 어드벤처 코미디 애니메이션 '부그와 엘리엇'. 부그(마틴 로렌스)는 야생 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_MPjKx2mAkA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_MPjKx2mAkA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_MPjKx2mAkA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YouTube Movies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2012-08-15T19:22:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ziy_8V1W9EfPb0qy7cO-jyLKwoo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2aMYgZRhGGY"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-20T00:28:13Z",
+        "channelId": "UCV6hWxB0-u_IX7e-h4fEBAw",
+        "title": "TORNADO CHASE - Indiana + Chicago + Indy, HEADS UP!",
+        "description": "Support the chase here - www.teamdominator.store discord.gg/teamdomhq SEVERE WEATHER ALERT – ENHANCED RISK ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2aMYgZRhGGY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2aMYgZRhGGY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2aMYgZRhGGY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Reed Timmer",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-20T00:28:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Mmm9j_tdQtjr6aJrfSgLmdU_AbI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1iDlXSXCznU"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T22:00:03Z",
+        "channelId": "UCbU6Rve0XMNZ2a2yaYgjlTA",
+        "title": "Watch Piers Morgan FINALLY TURN ON Trump, Elon in HEATED DEBATE!",
+        "description": "Piers Morgan called out Donald Trump and Elon Musk in a heated debate. #politics #trump #elonmusk #piersmorgan ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1iDlXSXCznU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1iDlXSXCznU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1iDlXSXCznU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Pondering Politics",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T22:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mpMT0islW08Zl1z-PDTXkIWGCSs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oQPjO1qTCTA"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-19T17:01:02Z",
+        "channelId": "UCXMwCQVey4PhdWFJ6WhAVhA",
+        "title": "super power tier list",
+        "description": "GET THE NEW TIME TRAVEL COMIC AT https://socks.store/ @Joocie @tuxy @oofistooshortt @allievtuber @BlazaPlays ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oQPjO1qTCTA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oQPjO1qTCTA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oQPjO1qTCTA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SocksStudios",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-19T17:01:02Z"
+      }
+    }
+  ]
+}

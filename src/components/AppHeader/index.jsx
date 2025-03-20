@@ -53,7 +53,7 @@ export default function AppHeader() {
     <Header>
       <Container>
         <section>
-          <Link to="/videos">
+          <Link to="/">
             <div className="brand">
               <img src={logo} alt="logo" />
               <Heading>Youtube Viewer</Heading>
