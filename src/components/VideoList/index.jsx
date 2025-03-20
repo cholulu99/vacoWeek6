@@ -1,16 +1,17 @@
 import styled from "styled-components";
 import VideoListEntry from "../VideoListEntry";
 import {useEffect,useState} from "react";
-import { getVideoList } from "../../utils/youtube";
+import { getVideoList } from "../../utils/youtube.js";
+import {Link} from "react-router-dom";
 
 const Wrapper = styled.div`
   display: grid;
   padding: 2em 0 0;
   width: 100%;
-  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  grid-template-columns: repeat(5,minmax(150px,1fr));
   grid-template-rows: 200px 200px 200px;
   column-gap: 20px;
-  row-gap: 20px;
+  row-gap: 200px;
 `;
 
 
@@ -19,7 +20,7 @@ export default function VideoList() {
 
   async function run() {
     const data = await getVideoList();
-    setVideoData(data.items);
+    setVideoData(data);
       // 과제 제출 때 없애야 함
   }
 
@@ -27,32 +28,17 @@ export default function VideoList() {
     run();
   },[]);
 
-
-
-
-  // const [videoData, setVideoData] = useState([]);
-
-  // async function run() {
-  //   const videoData = getVideoList();
-  //   setVideoData(videoData);
-
-  // }
-  // useEffect(async () => {
-  //   // API 요청하기
-  //   run();
-  // });
-
   return (
-
     <Wrapper data-test="video-list">
       {videoData.map((item) => {
-        return <VideoListEntry videoId={item.id.videoId} item={item} key={item.id.videoId}/>
+        return (
+          <Link to="/a">
+            <VideoListEntry videoId={item.id.videoId} item={item} key={item.id.videoId}/>
+          </Link>
+        )
       })}
     </Wrapper>
   );
 }
 
-function Test(){
-  console.log("pass");
-  return <></>
-}
+

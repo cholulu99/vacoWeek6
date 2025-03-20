@@ -16,10 +16,10 @@ const EntryWrapper = styled.div`
   }
 `;
 
-export default function VideoListEntry({ videoId = "", item},key) {
+export default function VideoListEntry({ videoId = "", item}) {
 
   return (
-    <EntryWrapper data-test={`video-item-${videoId}`} key={key}>
+    <EntryWrapper data-test={`video-item-${videoId}`} key={item.id.videoId}>
       <div>
         <img
           src={item.snippet.thumbnails.medium.url}
@@ -29,7 +29,7 @@ export default function VideoListEntry({ videoId = "", item},key) {
       </div>
       <div className="contents">
         <div data-test="video-title">{item.snippet.title}</div>
-        <div data-test="video-description">{item.snippet.description}</div>
+        {/* <div data-test="video-description">{item.snippet.description}</div> */}
       </div>
     </EntryWrapper>
   );
