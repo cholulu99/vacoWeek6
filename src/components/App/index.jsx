@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom"; // SPA를 만들어주는 패키지
+import { Routes, Route } from "react-router-dom";
 import styled from "styled-components";
 import VideoList from "../VideoList";
 import AppHeader from "../AppHeader";
@@ -13,8 +13,11 @@ const Main = styled.main`
 
 export default function App() {
   const [text, setText] = useState("");
+
   const [isEmpty, setIsEmpty] = useState(false);
+
   const [modalClose, setModalClose] = useState(false);
+
   return (
     <>
       <AppHeader text={text} setText={setText} setIsEmpty={setIsEmpty} setModalClose={setModalClose}/>

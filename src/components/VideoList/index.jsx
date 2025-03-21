@@ -53,8 +53,8 @@ export default function VideoList() {
 
   async function run() {
     const data = await getVideoList();
+
     setVideoData(data);
-      // 과제 제출 때 없애야 함
   }
 
   useEffect(() => {
