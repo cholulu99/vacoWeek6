@@ -48,7 +48,7 @@ const Header = styled.header`
   }
 `;
 
-export default function AppHeader() {
+export default function AppHeader({ text, setText, setIsEmpty, setModalClose }) {
   return (
     <Header>
       <Container>
@@ -62,10 +62,10 @@ export default function AppHeader() {
           <div className="input-container">
             <SearchInput
               placeholder="Youtube 검색"
-              onChange={(searchKeyword) => {
-                console.log(searchKeyword);
-              }}
-              value={"바닐라코딩"}
+              onChange={setText}
+              value={text}
+              setIsEmpty={setIsEmpty}
+              setModalClose={setModalClose}
             />
           </div>
         </section>

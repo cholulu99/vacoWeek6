@@ -1,8 +1,5 @@
 import styled from "styled-components";
-import VideoPlayer from "../Video";
 import React from "react";
-import { useLocation } from "react-router-dom";
-import { Link } from "react-router-dom";
 
 const BlurContainer = styled.div`
   position: absolute;
@@ -47,22 +44,25 @@ const VideoContainer = styled.div`
   text-align:center;
 `;
 
-export default function Modal() {
-    const location = useLocation();
-    const video = location.state.item;
+export default function AlertModal({ modalClose, setModalClose }) {
 
     return(
-        <BlurContainer>
-            <BaseContainer>
-                <CloseContainer>
-                    <Link to ="/">
-                      <button>X</button>
-                    </Link>
-                </CloseContainer>
-                <VideoContainer>
-                    <VideoPlayer video={video}/>
-                </VideoContainer>
-            </BaseContainer>
-        </BlurContainer>
+        <>
+            {modalClose ? null
+            :
+                (
+                    <BlurContainer>
+                        <BaseContainer>
+                            <CloseContainer>
+                                <button onClick={() => setModalClose(true)}>X</button>
+                            </CloseContainer>
+                            <VideoContainer>
+                                <h1>검색어를 입력하세요!!</h1>
+                            </VideoContainer>
+                        </BaseContainer>
+                    </BlurContainer>
+                )
+            }
+        </>
     )
 }
