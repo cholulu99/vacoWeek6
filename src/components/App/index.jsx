@@ -26,7 +26,7 @@ export default function App() {
             <Route
               path="/:videoId"
               element={
-                <Modal />
+                <Modal setModalClose={setModalClose}/>
               }
             />
           </Routes>

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import React from "react";
+import {useEffect, useRef} from "react";
 
 const BlurContainer = styled.div`
   position: absolute;
@@ -45,14 +46,29 @@ const VideoContainer = styled.div`
 `;
 
 export default function AlertModal({ modalClose, setModalClose }) {
+    const modalRef = useRef(null);
+    useEffect(() => {
 
+        const handler = (event) => {
+            if(modalRef.current && !modalRef.current.contains(event.target)) {
+                setModalClose(true);
+            }
+        }
+
+        document.addEventListener("mousedown", handler);
+
+        return () => {
+            document.removeEventListener("mousedown", handler);
+        }
+
+    })
     return(
         <>
             {modalClose ? null
             :
                 (
                     <BlurContainer>
-                        <BaseContainer>
+                        <BaseContainer ref={modalRef}>
                             <CloseContainer>
                                 <button onClick={() => setModalClose(true)}>X</button>
                             </CloseContainer>

@@ -4,6 +4,7 @@ import logo from "../../assets/vaco.svg";
 import SearchInput from "../SearchInput";
 import Container from "../shared/Container";
 import Heading from "../shared/Heading";
+import youtubelogo from "../../../youtube.jpg";
 
 const Header = styled.header`
   position: fixed;
@@ -28,6 +29,7 @@ const Header = styled.header`
   .brand {
     display: flex;
     align-items: center;
+    width: 700;
 
     h1 {
       margin-left: 10px;
@@ -37,7 +39,7 @@ const Header = styled.header`
   }
 
   img {
-    padding: 8px;
+    padding: 5px;
     height: 1.5rem;
     border: 1px solid black;
     border-radius: 2px;
@@ -55,7 +57,7 @@ export default function AppHeader({ text, setText, setIsEmpty, setModalClose }) 
         <section>
           <Link to="/">
             <div className="brand">
-              <img src={logo} alt="logo" />
+              <img src={youtubelogo} alt="logo" />
               <Heading>Youtube Viewer</Heading>
             </div>
           </Link>

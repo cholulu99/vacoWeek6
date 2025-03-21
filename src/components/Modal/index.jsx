@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import VideoPlayer from "../Video";
-import React from "react";
+import React, {useRef, useEffect} from "react";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 
@@ -47,13 +47,31 @@ const VideoContainer = styled.div`
   text-align:center;
 `;
 
-export default function Modal() {
+export default function Modal({setModalClose}) {
     const location = useLocation();
+
     const video = location.state.item;
+
+    const modalRef = useRef(null);
+
+    useEffect(() => {
+        const handler = (event) => {
+            if(modalRef.current && !modalRef.current.contains(event.target)) {
+                history.back();
+            }
+        }
+
+        document.addEventListener("mousedown", handler);
+
+        return () => {
+            document.removeEventListener("mousedown", handler);
+        }
+
+    })
 
     return(
         <BlurContainer>
-            <BaseContainer>
+            <BaseContainer ref={modalRef}>
                 <CloseContainer>
                     <Link to ="/">
                       <button>X</button>
