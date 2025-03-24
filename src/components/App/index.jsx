@@ -4,7 +4,7 @@ import VideoList from "../VideoList";
 import AppHeader from "../AppHeader";
 import Container from "../shared/Container";
 import Modal from "../Modal";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import AlertModal from "../AlertModal";
 
 const Main = styled.main`
@@ -14,8 +14,9 @@ const Main = styled.main`
 export default function App() {
 	const [text, setText] = useState("");
 	const [isEmpty, setIsEmpty] = useState(false);
-	const [videomodalOpen, setVideoModalOpen] = useState(false);
 	const [alertModalOpen, setAlertModalOpen] = useState(false);
+	const inputRef = useRef(null);
+	//inputRef.current.blur();
 
 	return (
 		<>
@@ -24,6 +25,7 @@ export default function App() {
 				setText={setText}
 				setIsEmpty={setIsEmpty}
 				setAlertModalOpen={setAlertModalOpen}
+				inputRef={inputRef}
 			/>
 			{isEmpty && (
 				<AlertModal

@@ -55,6 +55,7 @@ export default function AppHeader({
 	setText,
 	setIsEmpty,
 	setAlertModalOpen,
+	inputRef,
 }) {
 	return (
 		<Header>
@@ -73,6 +74,7 @@ export default function AppHeader({
 							value={text}
 							setIsEmpty={setIsEmpty}
 							setAlertModalOpen={setAlertModalOpen}
+							inputRef={inputRef}
 						/>
 					</div>
 				</section>

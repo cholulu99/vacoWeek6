@@ -7,17 +7,20 @@ export default function SearchInput({
 	value,
 	setIsEmpty,
 	setAlertModalOpen,
+	inputRef,
 }) {
 	function enterPress(e) {
 		if (e.key === "Enter" && value.trim() === "") {
 			setIsEmpty(true);
 			setAlertModalOpen(true);
+			inputRef.current.blur();
 		} else {
 			setIsEmpty(false);
 		}
 	}
 	return (
 		<Input
+			ref={inputRef}
 			type="text"
 			placeholder={placeholder}
 			value={value}
