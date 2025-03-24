@@ -13,10 +13,10 @@ const GlobalStyle = createGlobalStyle`
 `; // 브라우저 초기 셋팅 초기화 margin에 기본 8px을 주는 경우가 많음
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <GlobalStyle />
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
+	<React.StrictMode>
+		<GlobalStyle />
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
+	</React.StrictMode>
 );

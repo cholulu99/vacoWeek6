@@ -13,10 +13,9 @@ const Main = styled.main`
 
 export default function App() {
 	const [text, setText] = useState("");
-
 	const [isEmpty, setIsEmpty] = useState(false);
-
-	const [modalClose, setModalClose] = useState(false);
+	const [videomodalOpen, setVideoModalOpen] = useState(false);
+	const [alertModalOpen, setAlertModalOpen] = useState(false);
 
 	return (
 		<>
@@ -24,19 +23,19 @@ export default function App() {
 				text={text}
 				setText={setText}
 				setIsEmpty={setIsEmpty}
-				setModalClose={setModalClose}
+				setAlertModalOpen={setAlertModalOpen}
 			/>
 			{isEmpty && (
-				<AlertModal modalClose={modalClose} setModalClose={setModalClose} />
+				<AlertModal
+					alertModalOpen={alertModalOpen}
+					setAlertModalOpen={setAlertModalOpen}
+				/>
 			)}
 			<Main>
 				<Container>
 					<Routes>
 						<Route path="/" exact element={<VideoList />} />
-						<Route
-							path="/:videoId"
-							element={<Modal setModalClose={setModalClose} />}
-						/>
+						<Route path="/:videoId" element={<Modal />} />
 					</Routes>
 				</Container>
 			</Main>

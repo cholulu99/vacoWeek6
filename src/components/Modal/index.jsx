@@ -47,7 +47,7 @@ const VideoContainer = styled.div`
 	text-align: center;
 `;
 
-export default function Modal({ setModalClose }) {
+export default function Modal() {
 	const location = useLocation();
 
 	const video = location.state.item;
@@ -56,18 +56,15 @@ export default function Modal({ setModalClose }) {
 
 	useEffect(() => {
 		const handler = (event) => {
-			console.log(3);
 			if (modalRef.current && !modalRef.current.contains(event.target)) {
 				history.back();
 			}
 		};
-		console.log(1);
 
 		document.addEventListener("mousedown", handler);
 
 		return () => {
 			document.removeEventListener("mousedown", handler);
-			console.log(2);
 		};
 	});
 
