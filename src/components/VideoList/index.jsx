@@ -49,17 +49,34 @@ const CloseContainer = styled.div`
 
 export default function VideoList() {
 	const [videoData, setVideoData] = useState([]);
-
+	const [pageToken, setPageToken] = useState("");
+	const [page, setPage] = useState(0);
+	const [item, setItem] = useState(1);
 	async function run() {
-		const data = await getVideoList();
-
-		setVideoData(data);
+		const { items, nextPageToken } = await getVideoList(pageToken);
+		setVideoData((prev) => [...prev, ...items]);
+		setPageToken(nextPageToken);
 	}
-
 	useEffect(() => {
 		run();
 	}, []);
 
+	useEffect(() => {
+		const handler = () => {
+			console.log(1);
+			if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+				setPage((prevPage) => prevPage + 1);
+				window.removeEventListener("scroll", handler);
+				run();
+			}
+		};
+
+		window.addEventListener("scroll", handler);
+
+		return () => {
+			window.removeEventListener("scroll", handler);
+		};
+	}, [page]);
 	return (
 		<Wrapper data-test="video-list">
 			{videoData.map((item) => {
@@ -72,3 +89,6 @@ export default function VideoList() {
 		</Wrapper>
 	);
 }
+
+// 처음에 렌더링 10개만하고
+// 스크롤 할 때 getVideoList호출하기
