@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import VideoPlayer from "../Video";
 import React, { useRef, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const BlurContainer = styled.div`
@@ -48,6 +48,7 @@ const VideoContainer = styled.div`
 `;
 
 export default function Modal() {
+	const navigate = useNavigate();
 	const location = useLocation();
 
 	const video = location.state.item;
@@ -57,7 +58,7 @@ export default function Modal() {
 	useEffect(() => {
 		const handler = (event) => {
 			if (modalRef.current && !modalRef.current.contains(event.target)) {
-				history.back();
+				navigate("/");
 			}
 		};
 

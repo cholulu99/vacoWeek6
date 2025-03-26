@@ -1,5 +1,6 @@
 import Input from "../shared/Input";
 import PropTypes from "prop-types";
+import { useRef } from "react";
 
 export default function SearchInput({
 	onChange,
@@ -7,8 +8,8 @@ export default function SearchInput({
 	value,
 	setIsEmpty,
 	setAlertModalOpen,
-	inputRef,
 }) {
+	const inputRef = useRef(null);
 	function enterPress(e) {
 		if (e.key === "Enter" && value.trim() === "") {
 			setIsEmpty(true);

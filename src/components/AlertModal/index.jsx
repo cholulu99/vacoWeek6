@@ -19,8 +19,8 @@ const BaseContainer = styled.div`
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 75vw;
-	height: 85vh;
+	width: 50vw;
+	height: 50vh;
 	border-radius: 20px;
 	background-color: white;
 	z-index: 2;

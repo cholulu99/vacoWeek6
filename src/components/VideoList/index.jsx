@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import VideoListEntry from "../VideoListEntry";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { getVideoList } from "../../utils/youtube.js";
 import { Link } from "react-router-dom";
 
@@ -47,11 +47,13 @@ const CloseContainer = styled.div`
 	text-align: right;
 `;
 
-export default function VideoList() {
-	const [videoData, setVideoData] = useState([]);
-	const [pageToken, setPageToken] = useState("");
-	const [page, setPage] = useState(0);
-	const [item, setItem] = useState(1);
+export default function VideoList({
+	videoData,
+	setVideoData,
+	pageToken,
+	setPageToken,
+}) {
+	const isLoadingRef = useRef(false);
 	async function run() {
 		const { items, nextPageToken } = await getVideoList(pageToken);
 		setVideoData((prev) => [...prev, ...items]);
@@ -62,21 +64,23 @@ export default function VideoList() {
 	}, []);
 
 	useEffect(() => {
-		const handler = () => {
-			console.log(1);
-			if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-				setPage((prevPage) => prevPage + 1);
-				window.removeEventListener("scroll", handler);
+		const handler = async () => {
+			if (
+				window.innerHeight + window.scrollY >= document.body.offsetHeight &&
+				!isLoadingRef.current
+			) {
 				run();
+				isLoadingRef.current = true;
 			}
 		};
 
 		window.addEventListener("scroll", handler);
 
 		return () => {
+			isLoadingRef.current = false;
 			window.removeEventListener("scroll", handler);
 		};
-	}, [page]);
+	});
 	return (
 		<Wrapper data-test="video-list">
 			{videoData.map((item) => {

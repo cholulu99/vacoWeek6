@@ -6,7 +6,7 @@ import Container from "../shared/Container";
 import Modal from "../Modal";
 import { useState, useRef } from "react";
 import AlertModal from "../AlertModal";
-
+import { useEffect } from "react";
 const Main = styled.main`
 	margin-top: 110px;
 `;
@@ -15,8 +15,8 @@ export default function App() {
 	const [text, setText] = useState("");
 	const [isEmpty, setIsEmpty] = useState(false);
 	const [alertModalOpen, setAlertModalOpen] = useState(false);
-	const inputRef = useRef(null);
-	//inputRef.current.blur();
+	const [videoData, setVideoData] = useState([]);
+	const [pageToken, setPageToken] = useState("");
 
 	return (
 		<>
@@ -25,7 +25,6 @@ export default function App() {
 				setText={setText}
 				setIsEmpty={setIsEmpty}
 				setAlertModalOpen={setAlertModalOpen}
-				inputRef={inputRef}
 			/>
 			{isEmpty && (
 				<AlertModal
@@ -36,7 +35,18 @@ export default function App() {
 			<Main>
 				<Container>
 					<Routes>
-						<Route path="/" exact element={<VideoList />} />
+						<Route
+							path="/"
+							exact
+							element={
+								<VideoList
+									videoData={videoData}
+									setVideoData={setVideoData}
+									pageToken={pageToken}
+									setPageToken={setPageToken}
+								/>
+							}
+						/>
 						<Route path="/:videoId" element={<Modal />} />
 					</Routes>
 				</Container>
