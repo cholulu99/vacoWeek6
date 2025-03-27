@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const BlurContainer = styled.div`
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -47,18 +47,23 @@ const VideoContainer = styled.div`
 	text-align: center;
 `;
 
-export default function Modal() {
+export default function Modal({ setIsModalOpen }) {
+	document.body.style.overflow = "hidden";
 	const navigate = useNavigate();
 	const location = useLocation();
-
 	const video = location.state.item;
-
 	const modalRef = useRef(null);
+	function buttonHandler() {
+		navigate("/");
+		document.body.style.overflow = "unset";
+	}
 
 	useEffect(() => {
+		console.log(1);
 		const handler = (event) => {
 			if (modalRef.current && !modalRef.current.contains(event.target)) {
-				navigate("/");
+				document.body.style.overflow = "unset";
+				navigate(-1);
 			}
 		};
 
@@ -73,9 +78,7 @@ export default function Modal() {
 		<BlurContainer>
 			<BaseContainer ref={modalRef}>
 				<CloseContainer>
-					<Link to="/">
-						<button>X</button>
-					</Link>
+					<button onClick={buttonHandler}>X</button>
 				</CloseContainer>
 				<VideoContainer>
 					<VideoPlayer video={video} />
