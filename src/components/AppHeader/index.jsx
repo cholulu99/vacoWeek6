@@ -4,7 +4,6 @@ import logo from "../../assets/vaco.svg";
 import SearchInput from "../SearchInput";
 import Container from "../shared/Container";
 import Heading from "../shared/Heading";
-import youtubelogo from "../../../youtube.jpg";
 
 const Header = styled.header`
 	position: fixed;
@@ -55,17 +54,21 @@ export default function AppHeader({
 	setIsEmpty,
 	setAlertModalOpen,
 	searchRun,
+	setClickHome,
+	clickHome,
 }) {
+	function handler() {
+		setText("");
+		setClickHome(!clickHome);
+	}
 	return (
 		<Header>
 			<Container>
 				<section>
-					<Link to="/">
-						<div className="brand">
-							<img src={youtubelogo} alt="logo" />
-							<Heading>Youtube Viewer</Heading>
-						</div>
-					</Link>
+					<div className="brand" onClick={handler}>
+						<img src={logo} alt="logo" />
+						<Heading>Youtube Viewer</Heading>
+					</div>
 					<div className="input-container">
 						<SearchInput
 							placeholder="Youtube 검색"

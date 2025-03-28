@@ -12,13 +12,24 @@ const Wrapper = styled.div`
 	row-gap: 100px;
 `;
 
+const Hover = styled.div`
+	&:hover {
+		background: purple;
+		color: blue;
+		transition: all 0.5s;
+		transform: scale(1.05);
+	}
+`;
+
 export default function VideoList({ videoData }) {
 	return (
 		<Wrapper data-test="video-list">
 			{videoData.map((item, index) => {
 				return (
 					<Link to={"/a"} key={item.id.videoId + index} state={{ item }}>
-						<VideoListEntry videoId={item.id.videoId} item={item} />
+						<Hover>
+							<VideoListEntry videoId={item.id.videoId} item={item} />
+						</Hover>
 					</Link>
 				);
 			})}

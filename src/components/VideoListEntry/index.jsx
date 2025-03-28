@@ -35,7 +35,7 @@ export default function VideoListEntry({ videoId = "", item }) {
 				/>
 			</div>
 			<div className="contents">
-				<div data-test="video-title">영상 제목: {item.snippet.title}</div>
+				<div data-test="video-title">{item.snippet.title}</div>
 				{isShow && (
 					<div data-test="video-description">
 						설명: {item.snippet.description}

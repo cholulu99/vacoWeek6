@@ -20,6 +20,7 @@ export default function App() {
 	const [pageToken, setPageToken] = useState("");
 	const isLoadingRef = useRef(false);
 	const [isModalOpen, setIsModalOpen] = useState(false);
+	const [clickHome, setClickHome] = useState(false);
 
 	async function scrollRun() {
 		const { items, nextPageToken } = await getVideoList(pageToken, text);
@@ -36,7 +37,7 @@ export default function App() {
 
 	useEffect(() => {
 		searchRun(text);
-	}, []);
+	}, [clickHome]);
 
 	useEffect(() => {
 		const handler = async () => {
@@ -60,10 +61,6 @@ export default function App() {
 		};
 	});
 
-	useEffect(() => {
-		document.body.style.overflow = "visible";
-	}, [isModalOpen]);
-
 	return (
 		<>
 			<AppHeader
@@ -71,6 +68,8 @@ export default function App() {
 				setIsEmpty={setIsEmpty}
 				setAlertModalOpen={setAlertModalOpen}
 				searchRun={searchRun}
+				setClickHome={setClickHome}
+				clickHome={clickHome}
 			/>
 			{isEmpty && (
 				<AlertModal
