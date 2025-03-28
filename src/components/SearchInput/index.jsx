@@ -8,6 +8,7 @@ export default function SearchInput({
 	value,
 	setIsEmpty,
 	setAlertModalOpen,
+	searchRun,
 }) {
 	const inputRef = useRef(null);
 	function enterPress(e) {
@@ -15,7 +16,8 @@ export default function SearchInput({
 			setIsEmpty(true);
 			setAlertModalOpen(true);
 			inputRef.current.blur();
-		} else {
+		} else if (e.key === "Enter") {
+			searchRun();
 			setIsEmpty(false);
 		}
 	}

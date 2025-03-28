@@ -21,15 +21,20 @@ export default function App() {
 	const isLoadingRef = useRef(false);
 	const [isModalOpen, setIsModalOpen] = useState(false);
 
-	async function run() {
-		const { items, nextPageToken } = await getVideoList(pageToken);
+	async function scrollRun() {
+		const { items, nextPageToken } = await getVideoList(pageToken, text);
 		setVideoData((prev) => [...prev, ...items]);
 		setPageToken(nextPageToken);
 	}
 
+	async function searchRun() {
+		const { items, nextPageToken } = await getVideoList(pageToken, text);
+		setVideoData(items);
+		setPageToken(nextPageToken);
+	}
+
 	useEffect(() => {
-		run();
-		console.log("useEffect!");
+		searchRun();
 	}, []);
 
 	useEffect(() => {
@@ -41,7 +46,7 @@ export default function App() {
 				window.innerHeight + window.scrollY >= document.body.offsetHeight &&
 				!isLoadingRef.current
 			) {
-				run();
+				scrollRun();
 				isLoadingRef.current = true;
 			}
 		};
@@ -65,6 +70,7 @@ export default function App() {
 				setText={setText}
 				setIsEmpty={setIsEmpty}
 				setAlertModalOpen={setAlertModalOpen}
+				searchRun={searchRun}
 			/>
 			{isEmpty && (
 				<AlertModal

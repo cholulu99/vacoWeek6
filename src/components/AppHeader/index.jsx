@@ -55,6 +55,7 @@ export default function AppHeader({
 	setText,
 	setIsEmpty,
 	setAlertModalOpen,
+	searchRun,
 }) {
 	return (
 		<Header>
@@ -73,6 +74,7 @@ export default function AppHeader({
 							value={text}
 							setIsEmpty={setIsEmpty}
 							setAlertModalOpen={setAlertModalOpen}
+							searchRun={searchRun}
 						/>
 					</div>
 				</section>

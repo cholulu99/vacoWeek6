@@ -15,3 +15,5 @@ export default function VideoPlayer({ video }) {
 		</div>
 	);
 }
+
+// 가로수 치면 문자열중에 가로수가 연속으로 나온게 있는지 확인한다.

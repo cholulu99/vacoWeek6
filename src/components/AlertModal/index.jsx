@@ -3,7 +3,7 @@ import React from "react";
 import { useEffect, useRef } from "react";
 
 const BlurContainer = styled.div`
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -47,10 +47,17 @@ const VideoContainer = styled.div`
 
 export default function AlertModal({ alertModalOpen, setAlertModalOpen }) {
 	const modalRef = useRef(null);
+	if (alertModalOpen) {
+		document.body.style.overflow = "hidden";
+	}
+	function closeModal() {
+		setAlertModalOpen(false);
+		document.body.style.overflow = "unset";
+	}
 	useEffect(() => {
 		const handler = (event) => {
 			if (modalRef.current && !modalRef.current.contains(event.target)) {
-				setAlertModalOpen(false);
+				closeModal();
 			}
 		};
 
@@ -66,7 +73,7 @@ export default function AlertModal({ alertModalOpen, setAlertModalOpen }) {
 				<BlurContainer>
 					<BaseContainer ref={modalRef}>
 						<CloseContainer>
-							<button onClick={() => setAlertModalOpen(false)}>X</button>
+							<button onClick={closeModal}>X</button>
 						</CloseContainer>
 						<VideoContainer>
 							<h1>검색어를 입력하세요!!</h1>
