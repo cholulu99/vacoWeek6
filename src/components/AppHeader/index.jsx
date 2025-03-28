@@ -51,7 +51,6 @@ const Header = styled.header`
 `;
 
 export default function AppHeader({
-	text,
 	setText,
 	setIsEmpty,
 	setAlertModalOpen,
@@ -71,7 +70,6 @@ export default function AppHeader({
 						<SearchInput
 							placeholder="Youtube 검색"
 							onChange={setText}
-							value={text}
 							setIsEmpty={setIsEmpty}
 							setAlertModalOpen={setAlertModalOpen}
 							searchRun={searchRun}

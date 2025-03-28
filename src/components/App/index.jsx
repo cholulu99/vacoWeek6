@@ -27,14 +27,15 @@ export default function App() {
 		setPageToken(nextPageToken);
 	}
 
-	async function searchRun() {
-		const { items, nextPageToken } = await getVideoList(pageToken, text);
+	async function searchRun(inputText) {
+		window.scrollTo(0, 0);
+		const { items, nextPageToken } = await getVideoList("", inputText);
 		setVideoData(items);
 		setPageToken(nextPageToken);
 	}
 
 	useEffect(() => {
-		searchRun();
+		searchRun(text);
 	}, []);
 
 	useEffect(() => {
@@ -66,7 +67,6 @@ export default function App() {
 	return (
 		<>
 			<AppHeader
-				text={text}
 				setText={setText}
 				setIsEmpty={setIsEmpty}
 				setAlertModalOpen={setAlertModalOpen}

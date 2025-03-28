@@ -15,9 +15,9 @@ const Wrapper = styled.div`
 export default function VideoList({ videoData }) {
 	return (
 		<Wrapper data-test="video-list">
-			{videoData.map((item) => {
+			{videoData.map((item, index) => {
 				return (
-					<Link to={"/a"} key={item.id.videoId} state={{ item }}>
+					<Link to={"/a"} key={item.id.videoId + index} state={{ item }}>
 						<VideoListEntry videoId={item.id.videoId} item={item} />
 					</Link>
 				);

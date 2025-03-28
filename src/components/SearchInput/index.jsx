@@ -5,20 +5,23 @@ import { useRef } from "react";
 export default function SearchInput({
 	onChange,
 	placeholder,
-	value,
 	setIsEmpty,
 	setAlertModalOpen,
 	searchRun,
 }) {
 	const inputRef = useRef(null);
 	function enterPress(e) {
-		if (e.key === "Enter" && value.trim() === "") {
-			setIsEmpty(true);
-			setAlertModalOpen(true);
-			inputRef.current.blur();
-		} else if (e.key === "Enter") {
-			searchRun();
-			setIsEmpty(false);
+		if (e.key === "Enter") {
+			if (inputRef.current.value.trim() === "") {
+				onChange(inputRef.current.value);
+				setIsEmpty(true);
+				setAlertModalOpen(true);
+				inputRef.current.blur();
+			} else {
+				onChange(inputRef.current.value);
+				searchRun(inputRef.current.value);
+				setIsEmpty(false);
+			}
 		}
 	}
 	return (
@@ -26,8 +29,6 @@ export default function SearchInput({
 			ref={inputRef}
 			type="text"
 			placeholder={placeholder}
-			value={value}
-			onChange={(ev) => onChange(ev.target.value)}
 			data-test="input-search"
 			onKeyDown={(e) => enterPress(e)}
 		/>

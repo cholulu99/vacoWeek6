@@ -1,4 +1,4 @@
-export const YOUTUBE_API_KEY = "AIzaSyAVNy7yTW7546gSLmxZo_G31ELPPqfo3pU";
+export const YOUTUBE_API_KEY = "AIzaSyBeFPaXI3_qYOToW6CIJj3d0p1hdL-5RoA";
 
 export default async function getVideoList(nextPageToken, input) {
 	const pageToken = nextPageToken;
